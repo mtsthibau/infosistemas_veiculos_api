@@ -1,0 +1,28 @@
+{
+    "name": "veiculos_api",
+    "version": "1.0.0",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/server.js",
+        "start": "node src/server.js",
+        "test": "mocha 'test/**/*.js'"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-async-handler": "^1.1.4",
+        "express-session": "^1.16.1",
+        "express-validation": "^1.0.2",
+        "joi": "^14.3.1",
+        "nodemon": "^2.0.4",
+        "path": "^0.12.7",
+        "uuid": "^8.1.0",
+        "youch": "^2.0.10"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "request": "^2.88.2",
+        "should": "^13.2.3"
+    }
+}
